@@ -65,6 +65,12 @@ header {
     /* height:100px; */
     
 }
+
+.HeadWrap {
+    width:960px;
+    margin: 0 auto;
+}
+
 #Name {
     background-color:#4aaaa5;
     color:#ffffff;
@@ -80,7 +86,7 @@ header {
     /* display:block; */
     padding: 30px 39px;
     text-decoration:none;
-    float:left;
+    float:right;
     /* width: 320px; */
     border: 1px solid #000;
     margin: 0 auto;
@@ -133,8 +139,8 @@ header {
 
 .Content img {
     float:left;
-    width: 200;
-    height: 200;
+    width: 200px;
+    height: 200px;
 
 }
 

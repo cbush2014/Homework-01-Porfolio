@@ -11,7 +11,7 @@
     margin-bottom:-50px;
     margin: 0 auto;
     padding: 10px 0px 10px 0px;
-    background-color:#23e24c;
+    background-color:#ffffff;
     border-color: #dddddd;
     /* position: static; */
     /* top:300px; THIS DOES ABSOLUTELY NOTHING CRBTEMP*/
@@ -22,7 +22,7 @@
 
 .Content {
     position: relative;
-    /* margin-top:25px; */
+    margin-top:55px;
     top:115px;
     padding-left: 20px;
     padding-right: 20px;    
@@ -31,9 +31,9 @@
     
 }
 
-/* .footer, .push { */
-    /* height:50px; */
-/* } */
+.footer, .push { 
+   height:50px; 
+}
 
 html, body {
     height:100%;   /* crbtemp*/
@@ -84,11 +84,13 @@ header {
 }
 .Nav {
     /* display:block; */
-    padding: 30px 39px;
+    /* padding: 30px 39px; this will be top/bottom and left/right */
+    padding-top:25px;
+    padding-bottom:25px;
     text-decoration:none;
     float:right;
     /* width: 320px; */
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
     margin: 0 auto;
     /* position:absolute; */
     

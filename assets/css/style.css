@@ -140,9 +140,11 @@ header {
 }
 
 .Content img {
-    float:left;
+    /* float:left; */
     width: 200px;
     height: 200px;
+    /* margin-left: 15px;
+    margin-right: 15px; */
 
 }
 
@@ -231,7 +233,7 @@ fieldset
     margin: 25px auto;
     width: 550px;
     background-color:lightgreen;
-    /* float:left; */
+    float:left;
 }
 
 .rows img {
@@ -242,25 +244,26 @@ fieldset
 .row {
     float:left;
     width:250px;
+    margin: 0 auto;
     
 }
 
 .banner {
     position: relative;
-    /* bottom: 80px; */
-    top: 150px;
+    top: 200px;
     left: 30px;
-    /* float:left; */
+    float:left;
     width: 200px;
     height: 50px;
     background-color: #4aaaa5;
-    color:red;
+    color:#ffffff;
     text-align: center;
-
+    margin: 0 auto;
+    /* padding-top: 5px; */
 }
 
 .clearfix::after {
     content: "";
     clear: both;
-    display: table;
+    display: block; /* table*/
   }
